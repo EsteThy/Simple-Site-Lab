@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(135, 206, 235);
+}
+body{
+    border: 5px solid rgb(72, 205, 49);
+    height:500px;
+    margin-top: 50px;
+    margin-left: 470px;
+    margin-right: 470px;
+    overflow: auto;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
+header div a{
+    font-family: sans-serif;
+    color: rgb(74, 204, 153);
+    font-weight: bold;
+    padding: 0 5px;  
+}
+#blue{
+    color: white;
+    text-decoration: none;
+}
+header a+a{
+    border-left:2px solid rgb(128,128,128);
+}  
+header div{
+    display: table; 
+    margin: 0 auto;
+}
+img{
+    height: 180px;
+    float:right;
+    margin-right:40px;
+    padding-left:10px;
+}
+h2{
+    clear:both;
+    font-family:sans-serif ;
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+}
+p{
+    size: 15px;
+    margin-left: 30px;
+    margin-right:40px;
+    color: white;
+}
+footer{
+    clear: both;
+}
+footer a{
+    font-family: sans-serif;
+    color: rgb(74, 204, 153);
+    font-weight: bold;
+    padding: 0 5px; 
+
+}
+footer a+a{
+    border-left:2px solid rgb(128,128,128);
+}
+footer{
+    display: table; 
+    margin: 0 auto; 
+}
+
+/* <body>
+    <h1>Learn With Leon & Friends</h1>
+    <ul class="blue">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Portfolio</a></li>
+    </ul>
+    <h2>About Us</h2>
+    <img src="logo.png" alt="logo">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation allamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irue dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation allamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volupate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa ui officia deserunt mollit anim id est laborum.</p>
+    <ul class="green">
+        <li><a href="#">Twitch</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">Youtube</a></li>
+    </ul>
+</body>
+</html> */
